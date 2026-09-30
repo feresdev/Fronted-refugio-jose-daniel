@@ -1,0 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap');
+@import "tailwindcss";
+@theme { --color-ink:#b4232f; --color-ink-deep:#7f1d2d; --color-brand-dark:#641525; --color-brand-soft:#fdecec; --color-sun:#ffc83d; --color-cream:#fff8f0; --color-paper:#ffffff; --color-muted:#756565; --color-success:#3f8065; --font-display:"Playfair Display",Georgia,serif; --font-body:"Montserrat",Arial,sans-serif; }
+:root { font-family:var(--font-body); color:#2b2020; background:var(--color-cream); } body{margin:0;min-width:320px} button,input,select{font:inherit}.display{font-family:var(--font-display)}
+.field{width:100%;border:1px solid #e4d9d9;border-radius:.85rem;background:#fff;padding:.8rem 1rem;outline:0}.field:focus{border-color:#b4232f;box-shadow:0 0 0 3px #b4232f22}.btn-primary{border-radius:999px;background:#ffc83d;color:#641525;padding:.75rem 1.25rem;font-weight:800}.error{color:#b4232f;font-size:.8rem;margin-top:.35rem}.page-shell{min-height:100vh;background:radial-gradient(circle at 80% 5%,#fde0b0 0,transparent 28%),#fff8f0}

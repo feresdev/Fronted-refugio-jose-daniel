@@ -1,0 +1,4 @@
+---
+import MainLayout from '../../layouts/MainLayout.astro';import AdminNav from '../../components/AdminNav.astro';import AnimalForm from '../../components/AnimalForm.astro';
+---
+<MainLayout title="Registrar animal"><div class="page-shell min-h-screen"><AdminNav/><main class="mx-auto max-w-3xl px-5 py-10"><a href="/animals" class="font-bold text-ink">← Volver</a><h1 class="display mt-6 text-5xl text-ink">Nueva huella</h1><p class="mb-8 mt-2 text-slate-500">Registra la información del animal.</p><div class="rounded-3xl bg-white p-7 shadow-sm"><AnimalForm/></div></main></div><script>import{isAuthenticated}from'../../lib/auth/storage';if(!isAuthenticated())location.href='/login'</script></MainLayout>
